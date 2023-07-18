@@ -1,0 +1,43 @@
+.user-card {
+    padding: 16px 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    }
+    
+    .user-card img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    }
+    
+    .user-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    padding: 0 16px;
+    color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .user-card-role {
+    font-size: 14px;
+    margin: 0 0 12px;
+    padding: 0 16px;
+    color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .user-card-button-delete {
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    background-color: #d32f2f;
+    color: rgba(0, 0, 0, 0.8);
+    align-self: flex-start;
+    padding: 8px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 8px;
+    }
