@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "node index.js",
+    "build": "prisma generate"
+  },
   "prisma": {
     "seed": "node prisma/seed.js"
   },
